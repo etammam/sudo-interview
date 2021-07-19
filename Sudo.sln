@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudo.APIs", "Sudo.APIs\Sudo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudo.WebApp", "Sudo.WebApp\Sudo.WebApp.csproj", "{383211E0-7DE7-48FF-AD2C-C31173B1D48C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudo.Application", "Sudo.Application\Sudo.Application.csproj", "{D2739F70-55DF-4360-8C6F-E1826770F197}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{383211E0-7DE7-48FF-AD2C-C31173B1D48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{383211E0-7DE7-48FF-AD2C-C31173B1D48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{383211E0-7DE7-48FF-AD2C-C31173B1D48C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2739F70-55DF-4360-8C6F-E1826770F197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2739F70-55DF-4360-8C6F-E1826770F197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2739F70-55DF-4360-8C6F-E1826770F197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2739F70-55DF-4360-8C6F-E1826770F197}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
