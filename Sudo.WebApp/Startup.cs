@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Sudo.Application;
 
 namespace Sudo.WebApp
 {
@@ -24,6 +25,8 @@ namespace Sudo.WebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddApplication();
+            services.AddAntiforgery();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,7 +45,7 @@ namespace Sudo.WebApp
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseApplication();
             app.UseRouting();
 
             app.UseAuthorization();
